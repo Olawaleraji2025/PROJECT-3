@@ -23,13 +23,13 @@ body{
 
 
 .top1{
-  margin-left: 20px;
+  margin-left: 2%;
 }
 
 .icon1{
    position: absolute;
   top: 20px;
-  right: 150px;
+  right: 10%;
 
 }
 
@@ -58,7 +58,7 @@ color: var(--primary-color);
   max-width: 80%;
   height: 3px;
   background-color: var(--primary-color);
-display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,22 +66,17 @@ display: block;
 .top1a{
   border: 2px solid rgb(252, 252, 252);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 3px rgba(133, 86, 86, 0.2);
+  display: flex;
   width: 80%;
+  margin: auto;
   height: 150px;
-  max-height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 10px;
 }
 
 .top1a img{
-  object-fit: contain;
-  width: 170px;
-  margin-top: 10px;
-  max-width: 200px;
-  height: auto;
-
+  /* object-fit: contain; */
+  width: 150px;
+  margin: 10px 10px;
 }
 
 .top1b{
@@ -730,13 +725,14 @@ margin-left: 15px;
   
   width: 250px;
   height: 450px;
-  
+  text-align: center;
  
   position: relative;
 /* transition: height 0.5s ease-in-out; */
  }
 
  .div3{
+  text-align: center;
   
   width: 230px;
   height: 450px;
@@ -748,6 +744,7 @@ margin-left: 15px;
  }
 
 .div7{
+  text-align: center;
   
   width: 230px;
   height: 240px;
@@ -994,8 +991,7 @@ max-height: 100px;
   border: 2px solid rgb(252, 252, 252);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 3px rgba(133, 86, 86, 0.2);
   width: 92%;
-  height: 250px;
-  max-height: 250px;
+  height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1014,7 +1010,7 @@ display: block;
 }
 
 .sixth-content img{
-
+  
   margin-top: 20px;
   height: auto;
 }
@@ -1196,7 +1192,7 @@ margin: 0;
 
 
 
-@media (max-width: 1300px){
+/* @media (max-width: 1300px){
 
   .top1a img{
     width: 150px;
@@ -1226,9 +1222,9 @@ margin: 0;
   max-width: 190px;
   height: auto;
 }
-}
+} */
 
-@media (min-width: 1116px) and (max-width: 1300px){
+@media (min-width: 1116px) and (max-width: 1200px){
 
 .brands{
   margin-left: 8%;
@@ -1239,16 +1235,39 @@ margin: 0;
 .top1a{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.top1a img{
+  width: 100px;
+}
+
+
+ 
+/* *{
+  border: solid red;
+}  */
+
+.third-container{
+  width: 100%;
+}
+
+.top1b{
+  width: 100%;
 }
 
 .fourth-cont1{
-  width: 400px;
+  width: 300px;
 }
 
+.fourth-cont-img{
+  width: 700px;
+}
 
 .fourth-cont-img img{
   height: 500px;
+  object-fit: contain;
+  width: 600px;
 }
 
 .fourth-cont1 span{
@@ -1256,9 +1275,7 @@ margin: 0;
 }
 
 
-.top1a img{
-  width: 130px;
-}
+
 
 
 
@@ -1303,31 +1320,13 @@ margin: 0;
     width: 500px;
     margin-left: 10px;
   }
-  /* .hidden-content2 small{
-    margin-left: 0;
-    }
+  
     
-    .hidden-content3 small{
-      margin-left: 0;
-      }
-      
-      .hidden-content4 small{
-        margin-left: 0;
-        }
-    
-        .hidden-content7 small{
-          margin-left: 0;
-          } */
-    
-          .hidden-content8 small{
+        .hidden-content8 small{
             margin-left: 0;
             font-size: 0.9rem;
             }
-  
-  /* .lineb{
-    width: 600px;
-  } */
-  
+
   .hidden:hover .hidden-content,
   .hidden2:hover .hidden-content2,
   .hidden3:hover .hidden-content3,
@@ -1348,7 +1347,7 @@ margin: 0;
 .breakfast-content{
   flex-wrap: wrap;
   height: auto;
-
+display: flex;
 }
 
 .nth-container7, .nth-container{
@@ -1396,7 +1395,7 @@ padding: 10px 10px;
 }
 
 .div1{
-  width: 300px;
+  width: 250px;
   text-align: center;
 }
 
@@ -1412,7 +1411,7 @@ padding: 10px 10px;
 }
 
 .topup{
-  right: 5%;
+  right: 2%;
 }
 
   
@@ -1532,14 +1531,20 @@ input[type='text']{
 }
 
 .fifth-container{
-  width: 100%;
+  width: 75%;
  display: block;
+ margin-left: 10%;
   }
+
+  /* *{
+    border: solid red;
+  } */
 
   .content1{
    
-   display: flex;
-   flex-direction: row;
+    display: block;
+   /* display: flex;
+   flex-direction: row; */
    text-align: center;
   }
 
@@ -1548,6 +1553,20 @@ input[type='text']{
     font-size: 20px;
     top: 0;
   }
+
+.sixth-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sixth-content img{
+  width: 150px;
+}
+
+input[type="email"]{
+  width: 300px;
+}
 
 .sixth-container-top{
   margin-left: 4%;
@@ -1590,6 +1609,11 @@ input[type='text']{
 .hidden8:hover .hidden-content8,
 .hidden9:hover .hidden-content9{
   display: none;
+}
+
+.topup{
+  right: 5%;
+
 }
 
 }

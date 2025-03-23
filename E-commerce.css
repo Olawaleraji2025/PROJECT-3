@@ -1224,11 +1224,9 @@ margin: 0;
 }
 } */
 
-@media (max-width: 1326px){
+@media (min-width: 1116px) and  (max-width: 1326px){
 
-body{
-  overflow-x: hidden;
-}
+
 
 .fourth-cont1 span{
   padding: 10px;
@@ -2302,7 +2300,6 @@ input[type="text"]{
     width: 90px;
     flex-wrap: wrap;
     margin: 0 auto;
-
   }
 
 }
